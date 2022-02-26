@@ -23,5 +23,5 @@
 ✨✨ 如果本项目对您有帮助，欢迎扫描下面的二维码给予捐赠，以帮助本项目更好的维护和更新。
 ![欢迎捐赠](https://github.com/Sheng14/FEThinkTank/blob/main/img/pay.jpg)
 ![欢迎捐赠](https://camo.githubusercontent.com/6a0f5c2cd3f1c75813cc3c2e7b010a3b37aafdc4ba62a82c231a7e28aea6c6fc/68747470733a2f2f696d672e33646d67616d652e636f6d2f75706c6f6164732f696d616765732f6e6577732f32303231303730322f313632353231313131305f3534393230302e6a7067)
-![欢迎捐赠](./img/1.png)
+![欢迎捐赠](https://kityminder-img.gz.bcebos.com/88ec8b96cdffe8d5d43eda17e209da087344f3e8)
 ![欢迎捐赠](./img/pay.jpg)
