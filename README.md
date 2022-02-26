@@ -22,3 +22,4 @@
 
 ✨✨ 如果本项目对您有帮助，欢迎扫描下面的二维码给予捐赠，以帮助本项目更好的维护和更新。
 ![欢迎捐赠](https://github.com/Sheng14/FEThinkTank/blob/main/pay.jpg)
+![欢迎捐赠](pay.jpg)
