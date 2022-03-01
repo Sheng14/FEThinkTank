@@ -548,7 +548,7 @@ Node 用过什么，说说中间件是怎么做的
 
 8.看题说输出
 
-````
+```
 async function async1() {
 console.log('async1 start');
 await async2();
@@ -574,16 +574,14 @@ resolve();
 console.log('promise2');
 });
 
-console.log('script end');```
-
+console.log('script end');
+```
 
 9.nextTick 用在什么地方？原理是什么？
 
 10.说说 HTTPS 是什么
 
-
 11.HTTPS 和 HTTP 有什么区别？
-
 
 12.HTTPS 的话客户端需要做什么处理？（不清楚，开始拉）
 
@@ -601,4 +599,46 @@ Semantic Versioning 是一个前端通用的版本规范。格式为“{MAJOR}.{
 4. 其中，rc > beta > alpha；
 5. MAJOR、MINOR、PATCH 分别代表是版本号不同位置，MAJOR > MINOR > PATCH
 6. 例子，1.2.3 < 1.2.4 < 1.3.0.alpha.1 < 1.3.0.alpha.2 < 1.3.0.beta.1 < 1.3.0.rc.1 < 1.3.0
-````
+
+## 小米
+
+### 小米提前批前端一面面经
+
+1.  html 语义化
+2.  事件流
+3.  前端存储
+4.  前缓存和协商缓存
+5.  选择器有什么
+6.  BFC
+7.  讲讲 animation，手动实现一下
+8.  normalize.css 和 reset.css 有什么区别
+9.  实现圣杯布局方式：
+10. js 基本数据类型，有什么区别，大概有哪些
+11. 设计模式知道什么
+12. 那你写个单例出来（
+13. es6+ 语法知道什么？
+14. 平时 async await 怎么用的
+15. 箭头函数与普通函数区别
+16.
+
+```
+   window.id = 0
+   const a = {
+      id: 1,
+      b: () => {
+         console.log(this.id)
+      },
+      c: function() {
+         console.log(this.id)
+      }
+   }
+   a.b() // 0
+   a.c() // 1
+```
+
+17. 继承讲讲
+18. Vue 的 keep-alive 怎么用，是优化组件还是避免组件重新渲染，原理是什么？
+19. v-model 原理
+20. data 不同书写方式有什么区别
+21. 求 1+2+3+...+n（可以借助&&秀一手）
+22. 写一个排序算法
