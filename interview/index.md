@@ -497,3 +497,108 @@ Node 用过什么，说说中间件是怎么做的
 11.怎么判断有环的链表相交
 
 12.有环的链表相交有几种情况
+
+## 字节跳动
+
+### 字节跳动提前批抖音前端一面
+
+1.说说 var let const
+
+2.作用域有什么
+
+3.怎么判断类型
+
+4.手写一下 instanceof（刚看过，秒了）
+
+5.node 写过中间件么，中间件是怎么执行？中间件里有中间件？
+
+6.Vue 比原生有什么好处
+
+7.说说 vue 双向绑定
+
+8.依赖收集是怎么回事
+
+9.computed 的原理？object.defineProperty 也对它做了 getter、setter 吗？
+
+10.浏览器与服务器在这过程中怎么加密解密？
+
+11.HTTP2.0 与之前有什么区别（这不有手就行），那你再仔细说说具体是什么意思，怎么操作的
+
+12.事件循环了解过吗
+
+13..UI 渲染属于？
+
+14.算法-二叉树层序遍历
+
+### 字节跳动提前批抖音前端二面
+
+1.讲讲项目的难点（略）
+
+2.Vue 的双向绑定是怎么回事
+
+3.2.x 的双向绑定有什么缺点？
+
+4.3.0 的是怎么改进？
+
+5.2.x 针对数组怎么做的双向绑定
+
+6.说说事件循环
+
+7.微任务有什么
+
+8.看题说输出
+
+````
+async function async1() {
+console.log('async1 start');
+await async2();
+console.log('async1 end');
+}
+
+async function async2() {
+console.log('async2');
+}
+
+console.log('script start');
+
+setTimeout(function() {
+console.log('setTimeout');
+}, 0);
+
+async1();
+
+new Promise(function(resolve) {
+console.log('promise1');
+resolve();
+}).then(function() {
+console.log('promise2');
+});
+
+console.log('script end');```
+
+
+9.nextTick 用在什么地方？原理是什么？
+
+10.说说 HTTPS 是什么
+
+
+11.HTTPS 和 HTTP 有什么区别？
+
+
+12.HTTPS 的话客户端需要做什么处理？（不清楚，开始拉）
+
+13.你有不限量的水，还有两个罐子，容量分别是 5 升和 3 升。请精确的称量出 4 升水（？）
+
+14.在岛上有 100 只老虎和 1 只羊，老虎可以吃草，但他们更愿意吃羊。如果每次只有一只老虎可以吃羊，而且一旦他吃了羊，他自己就变成羊；而且所有的老虎都是聪明而且完全理性的，他们的第一要务是生存。 请问最后这只羊会不会被吃？如果是 n 只老虎和一只羊呢？（？？）
+
+15.编程：
+
+Semantic Versioning 是一个前端通用的版本规范。格式为“{MAJOR}.{MINOR}.{PATCH}-{alpha|beta|rc}.{number}”，要求实现 compare(a, b) 方法，比较 a, b 两个版本大小:
+
+1. 当 a > b 是返回 1；
+2. 当 a = b 是返回 0；
+3. 当 a < b 是返回 -1；
+4. 其中，rc > beta > alpha；
+5. MAJOR、MINOR、PATCH 分别代表是版本号不同位置，MAJOR > MINOR > PATCH
+6. 例子，1.2.3 < 1.2.4 < 1.3.0.alpha.1 < 1.3.0.alpha.2 < 1.3.0.beta.1 < 1.3.0.rc.1 < 1.3.0
+````
